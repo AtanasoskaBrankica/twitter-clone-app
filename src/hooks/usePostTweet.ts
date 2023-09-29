@@ -1,5 +1,4 @@
 import {useContext, useReducer, useRef} from 'react';
-import type {PostType} from '../containers/Home/components/Main/types';
 import {TweetsContext} from '../contexts/TweetsContext';
 
 type Action =

@@ -1,5 +1,6 @@
-import {useEffect, useState} from 'react';
+import {useState} from 'react';
 import type {CommentType} from '../containers/PostPage/types';
+
 export const useFetchComments = (
   url: string,
   initialState: CommentType[]

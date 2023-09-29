@@ -62,7 +62,6 @@ const Styled = {
   MessageContent: styled.p`
     color: ${props => props.theme.Messages.text.color};
   `,
-
   WhenWrapper: styled.span`
     color: grey;
     font-size: 20px;

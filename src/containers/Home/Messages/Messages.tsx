@@ -3,6 +3,7 @@ import {PageWrapper} from '../../../components/PageWrapper/PageWrapper';
 import {FaCog, FaEnvelopeOpenText} from 'react-icons/fa';
 import {MessageCard} from './components/MessageCard/MessageCard';
 import {SearchInput} from '../../../components/SearchInput/SearchInput';
+
 export const Messages = () => {
   return (
     <PageWrapper>

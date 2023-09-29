@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import {FaCog, FaSearch} from 'react-icons/fa';
 import {TitleTopic} from '../../components/TitleTopic/TitleTopic';
@@ -18,7 +17,6 @@ export const Search = () => {
           ></Styled.SearchInput>
         </Styled.SearchIcon>
       </Styled.SearchWrapper>
-
       <Styled.WrapperOne>
         <TitleTopic title="Topics for you" icon={<FaCog size={20} />} />
         <Topic
@@ -71,7 +69,6 @@ const Styled = {
     background: ${props => props.theme.Aside.searchInput.background};
     border: 1px solid lightgrey;
   `,
-
   SearchIcon: styled.div`
     margin-left: 20px;
     margin-top: 10px;

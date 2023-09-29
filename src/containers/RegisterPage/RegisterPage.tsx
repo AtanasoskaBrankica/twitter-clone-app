@@ -3,9 +3,8 @@ import styled from 'styled-components';
 import {FaTwitter} from 'react-icons/fa';
 import Button from '../../components/Button/Button';
 import {AuthContext} from '../../contexts/AuthContext';
-import {useContext, useEffect, useState} from 'react';
+import {useContext, useEffect} from 'react';
 import {Navigate} from 'react-router-dom';
-import {FormBirthday} from './components/FormBirthday/FormBirthday';
 
 interface FormProps {
   firstName: string;
@@ -48,6 +47,7 @@ export const RegisterPage = () => {
   if (userIsLoggedIn) {
     return <Navigate to="/" />;
   }
+
   return (
     <Styled.Container onSubmit={handleSubmit(onSubmit)}>
       <Styled.IconWrapper>

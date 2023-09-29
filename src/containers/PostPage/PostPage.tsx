@@ -1,14 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import {useEffect} from 'react';
 import {useLocation, useParams} from 'react-router-dom';
-import {setEnvironmentData} from 'worker_threads';
 import {Post} from '../Home/components/Main/components/Post/Post';
-import {CommentType} from './types';
 import {Comment} from '../PostPage/components/Comment/Comment';
 import {PostType} from '../Home/components/Main/types';
-import {useFetch} from '../../hooks/useFetch';
 import styled from 'styled-components';
 import {useFetchComments} from '../../hooks/useFetchComments';
-
 import {useFetchPost} from '../../hooks/useFetchPost';
 import {AddComment} from './components/AddComment/AddComment';
 import {PageWrapper} from '../../components/PageWrapper/PageWrapper';

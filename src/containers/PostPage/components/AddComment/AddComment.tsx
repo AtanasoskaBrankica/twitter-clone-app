@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import {useEffect} from 'react';
 import styled from 'styled-components';
 import type {CommentType} from '../../types';
 import Button from '../../../../components/Button/Button';
@@ -8,21 +8,13 @@ import {useForm} from 'react-hook-form';
 interface Props {
   addNewComment: (comment: CommentType) => void;
 }
+
 export const AddComment = ({addNewComment}: Props) => {
-  const {
-    comment,
-    error,
-    loading,
-    postComment,
-    setComment,
-    postedComment,
-    someRef,
-  } = usePostComment();
+  const {error, loading, postComment, postedComment, someRef} =
+    usePostComment();
 
   const {
-    register,
     handleSubmit,
-    watch,
     formState: {errors},
   } = useForm();
 
@@ -94,7 +86,6 @@ const Styled = {
     height: 100%;
     width: 100%;
   `,
-
   TextArea: styled.textarea`
     height: 80px;
     width: 450px;

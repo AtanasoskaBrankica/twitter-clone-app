@@ -1,4 +1,3 @@
-import {url} from 'inspector';
 import styled from 'styled-components';
 import {FaTwitter} from 'react-icons/fa';
 import Button from '../../components/Button/Button';
@@ -6,6 +5,7 @@ import {useNavigate} from 'react-router-dom';
 
 export const TwitterPage = () => {
   const navigate = useNavigate();
+
   return (
     <Styled.Container>
       <Styled.WrapperOne>

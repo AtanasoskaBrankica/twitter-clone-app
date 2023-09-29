@@ -1,4 +1,5 @@
 import {NotificationCard} from '../NotificationCard/NotificationCard';
+
 export const All = () => {
   return (
     <>

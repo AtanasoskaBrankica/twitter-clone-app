@@ -1,5 +1,4 @@
-import {useEffect, useState} from 'react';
-import type {PostType} from '../containers/Home/components/Main/types';
+import {useState} from 'react';
 
 export const useFetchPost = <T>(
   url: string,

@@ -1,5 +1,3 @@
-import {NumberLiteralType} from 'typescript';
-
 export interface Post {
   userId: number;
   id: number;

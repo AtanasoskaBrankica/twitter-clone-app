@@ -1,8 +1,6 @@
-import React from 'react';
 import {useNavigate} from 'react-router-dom';
 import styled from 'styled-components';
 import {Action} from './components/Action';
-import type {PostType} from '../../types';
 import {
   FaRegComment,
   FaRetweet,
@@ -84,7 +82,6 @@ const Styled = {
     align-items: flex-start;
     width: 100%;
   `,
-
   Avatar: styled.img`
     width: 50px;
     height: 50px;

@@ -3,10 +3,9 @@ import {PageWrapper} from '../../../../components/PageWrapper/PageWrapper';
 import {FaArrowLeft, FaCalendarAlt} from 'react-icons/fa';
 import {Link, useLocation, useNavigate} from 'react-router-dom';
 import Button from '../../../../components/Button/Button';
-import {useContext, useRef, useState} from 'react';
+import {useState} from 'react';
 import {Modal} from 'react-bootstrap';
 import {useForm} from 'react-hook-form';
-import {AuthContext} from '../../../../contexts/AuthContext';
 import {changePasswordApi} from '../../../../mockApi/login';
 import {Tweets} from './components/Tweets/Tweets';
 import {Media} from './components/Media/Media';
@@ -160,12 +159,12 @@ export const Profile = () => {
             Likes
           </Link>
         </Styled.LinkWrapper>
-        {/* {location.pathname.includes('tweets') ? <Tweets /> : <Media /> : <Likes/>} */}
         {path}
       </Styled.Container>
     </PageWrapper>
   );
 };
+
 const Styled = {
   Container: styled.div`
     display: flex;

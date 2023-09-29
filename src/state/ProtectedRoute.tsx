@@ -5,7 +5,8 @@ import {AuthContext} from '../contexts/AuthContext';
 interface Props {
   children: JSX.Element;
 }
+
 export const ProtectedRoute = ({children}: Props) => {
   const {userIsLoggedIn} = useContext(AuthContext);
-  return userIsLoggedIn ? children : <Navigate to="/login" />;
+  return userIsLoggedIn ? children : <Navigate to="/twitter" />;
 };

@@ -1,6 +1,4 @@
-import React from 'react';
 import styled from 'styled-components';
-import {sortAndDeduplicateDiagnostics} from 'typescript';
 
 interface Props {
   title?: string;

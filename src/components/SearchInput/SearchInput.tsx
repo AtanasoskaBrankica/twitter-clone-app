@@ -39,7 +39,6 @@ const Styled = {
     background: ${props => props.theme.Aside.searchInput.background};
     border: 1px solid lightgrey;
   `,
-
   SearchIcon: styled.div`
     margin-left: 20px;
     margin-top: 10px;

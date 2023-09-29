@@ -1,5 +1,3 @@
-import {FaBlackberry} from 'react-icons/fa';
-
 export const theme = {
   dark: {
     NavBar: {

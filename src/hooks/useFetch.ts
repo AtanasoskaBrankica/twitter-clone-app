@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import {useState} from 'react';
 import {useDispatch} from 'react-redux';
 import type {PostType} from '../containers/Home/components/Main/types';
 import {setPosts} from '../state/posts/posts.actions';
