@@ -1,4 +1,3 @@
-import React from 'react';
 import {useNavigate} from 'react-router-dom';
 import styled from 'styled-components';
 import {Action} from '../../../Home/components/Main/components/Post/components/Action';
@@ -8,6 +7,7 @@ import {
   FaRegHeart,
   FaShareSquare,
 } from 'react-icons/fa';
+
 interface Props {
   name: string;
   email: string;
@@ -17,6 +17,7 @@ interface Props {
 
 export const Comment = ({name, email, body, id}: Props) => {
   let navigate = useNavigate();
+
   return (
     <Styled.Container>
       <Styled.AdditionalInfo>{name}</Styled.AdditionalInfo>
@@ -69,7 +70,6 @@ const Styled = {
     align-items: flex-start;
     width: 100%;
   `,
-
   Avatar: styled.img`
     width: 50px;
     height: 50px;

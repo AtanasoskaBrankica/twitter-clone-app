@@ -16,7 +16,6 @@ export const LoginPage = () => {
   const {
     register,
     handleSubmit,
-    watch,
     setError,
     formState: {errors},
   } = useForm<FormProps>();

@@ -1,7 +1,5 @@
-import React, {useContext, useState} from 'react';
-import {useFetch} from '../../../../hooks/useFetch';
+import {useContext} from 'react';
 import {Post} from './components/Post/Post';
-import type {PostType} from './types';
 import {AddTweet} from './components/AddTweet/AddTweet';
 import {TweetsContext} from '../../../../contexts/TweetsContext';
 import styled from 'styled-components';

@@ -1,6 +1,5 @@
 import {createSelector} from 'reselect';
 import {GlobalState} from '../types';
-import {UserState} from './user.types';
 
 const userState = (state: GlobalState) => {
   return state.user;

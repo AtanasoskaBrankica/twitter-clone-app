@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {setSyntheticLeadingComments} from 'typescript';
 import {UserMessage} from '../UserMessage/UserMessage';
 
 export const MessageCard = () => {

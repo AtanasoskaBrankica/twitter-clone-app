@@ -1,4 +1,3 @@
-import React from 'react';
 import {Route, Routes as RRDRoutes} from 'react-router-dom';
 import {Explore} from '../containers/Home/components/Explore/Explore';
 import {Main} from '../containers/Home/components/Main/Main';

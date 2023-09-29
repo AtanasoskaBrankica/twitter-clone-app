@@ -1,27 +1,21 @@
-import React, {useContext} from 'react';
 import styled from 'styled-components';
 import Button from '../../../../../../components/Button/Button';
-
 import {
   FaRegImage,
   FaGift,
   FaPoll,
-  FaPollH,
   FaSmile,
   FaTasks,
   FaMapMarkerAlt,
 } from 'react-icons/fa';
 import {usePostTweet} from '../../../../../../hooks/usePostTweet';
 import {useForm} from 'react-hook-form';
-import {PostType} from '../../types';
 
 export const AddTweet = () => {
   const {tweet, error, loading, postTweet, setTweet, someRef} = usePostTweet();
 
   const {
-    register,
     handleSubmit,
-    watch,
     formState: {errors},
   } = useForm();
 

@@ -1,7 +1,5 @@
-import {stringify} from 'querystring';
-import React, {useCallback, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
-import {useNavigate} from 'react-router-dom';
 import {LocalStorageConstants} from '../constants/constants';
 import {
   getUserApi,

@@ -1,6 +1,5 @@
 import {createSelector} from 'reselect';
 import {GlobalState} from '../types';
-import {ThemeState} from './theme.types';
 
 const themeState = (state: GlobalState) => state.theme;
 
