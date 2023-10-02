@@ -107,6 +107,7 @@ export const RegisterPage = () => {
 
       <Button
         backgroundColor="grey"
+        margin="10px"
         type="submit"
         name="Sign up"
         textColor="black"
@@ -138,12 +139,12 @@ const Styled = {
   Title: styled.h1`
     color: lightgrey;
     font-weight: bold;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-top: 10px;
   `,
   Input: styled.input`
     border: 1px solid grey;
-    margin-bottom: 70px;
+    margin-top: 20px;
     background: black;
     width: 600px;
     height: 70px;
