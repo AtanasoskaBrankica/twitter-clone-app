@@ -61,7 +61,7 @@ const Styled = {
     display: flex;
     font-weight: bold;
     color: ${props => props.theme.Aside.wrapperTwo.accountName.color};
-    font-size: 20px;
+    font-size: 1rem;
   `,
   Username: styled.div`
     display: flex;

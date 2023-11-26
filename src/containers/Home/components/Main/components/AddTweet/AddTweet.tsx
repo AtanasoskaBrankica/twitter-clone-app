@@ -51,22 +51,22 @@ export const AddTweet = () => {
         <Styled.ActionsWrapper>
           <Styled.IconsWrapper>
             <Styled.Icon>
-              <FaRegImage color="rgb(29,155,240)" size={22} />
+              <FaRegImage color="rgb(29,155,240)" size={18} />
             </Styled.Icon>
             <Styled.Icon>
-              <FaGift color="rgb(29,155,240)" size={22} />
+              <FaGift color="rgb(29,155,240)" size={18} />
             </Styled.Icon>
             <Styled.Icon>
-              <FaPoll color="rgb(29,155,240)" size={22} />
+              <FaPoll color="rgb(29,155,240)" size={18} />
             </Styled.Icon>
             <Styled.Icon>
-              <FaSmile color="rgb(29,155,240)" size={22} />
+              <FaSmile color="rgb(29,155,240)" size={18} />
             </Styled.Icon>
             <Styled.Icon>
-              <FaTasks color="rgb(29,155,240)" size={22} />
+              <FaTasks color="rgb(29,155,240)" size={18} />
             </Styled.Icon>
             <Styled.Icon>
-              <FaMapMarkerAlt color="rgb(29,155,240)" size={22} />
+              <FaMapMarkerAlt color="rgb(29,155,240)" size={18} />
             </Styled.Icon>
           </Styled.IconsWrapper>
           <Button

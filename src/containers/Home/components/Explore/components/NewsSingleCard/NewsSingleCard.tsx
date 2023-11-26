@@ -37,6 +37,7 @@ const Styled = {
   `,
   Title: styled.h4`
     color: ${props => props.theme.News.color};
+    font-size: 1.3rem;
   `,
   Image: styled.img`
     width: 100px;

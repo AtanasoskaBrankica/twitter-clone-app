@@ -32,6 +32,7 @@ const Styled = {
     flex: 4;
     height: 50px;
     font-weight: bold;
+    font-size: 1.2rem;
     color: ${props => props.theme.Aside.wrapperOne.title.color};
   `,
   IconWrapper: styled.div`
@@ -39,6 +40,6 @@ const Styled = {
     flex: 1;
     height: 50px;
     padding-top: 20px;
-    padding-left: 150px;
+    padding-left: 100px;
   `,
 };

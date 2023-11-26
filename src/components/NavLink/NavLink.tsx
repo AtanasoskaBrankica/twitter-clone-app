@@ -42,7 +42,7 @@ const Styled = {
     padding-left: 10px;
     flex: 4;
     height: 50px;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: bold;
     font-family: Roboto;
     color: ${props => props.theme.NavBar.textColor.color};

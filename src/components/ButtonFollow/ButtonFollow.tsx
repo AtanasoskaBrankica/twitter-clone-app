@@ -20,9 +20,9 @@ const Styled = {
     background: ${props => props.backgroundColor}
     color: ${props => props.textColor}
     width: 90px;
-    height: 40px;
     border-radius: 20px;
     padding: 5px 20px;
     font-weight: bold;
+    border:none;
   `,
 };

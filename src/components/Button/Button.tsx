@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import styled from 'styled-components';
+import React from 'react';
 
 interface Props {
   backgroundColor: string;
@@ -37,6 +36,7 @@ const Button = ({
         justifyContent: 'center',
         margin: margin,
         fontWeight: 'bold',
+        border: 0,
       }}
     >
       {name}

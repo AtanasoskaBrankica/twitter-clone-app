@@ -13,12 +13,13 @@ const Styled = {
   Container: styled.div``,
   Title: styled.h1`
     font-weight: bold;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 50px;
     color: ${props => props.theme.Notification.title.color};
+    font-size: 2rem;
   `,
   Text: styled.span`
-    margin-left: 200px;
+    margin-left: 150px;
     color: grey;
     font-size: 17px;
   `,

@@ -56,9 +56,11 @@ const Styled = {
   Title: styled.h5`
     margin-top: 10px;
     color: ${props => props.theme.Notification.title.color};
+    font-size: 1rem;
   `,
   Content: styled.p`
     color: ${props => props.theme.Notification.text.color};
+    font-size: 0.9rem;
   `,
   IconSettings: styled.div`
     margin-right: 20px;

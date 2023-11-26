@@ -38,24 +38,24 @@ export const NavBar = () => {
   return (
     <Styled.Container className="col-3">
       <NavLink to="/" text="" icon={<FaTwitter size={40} />} />
-      <NavLink to="/" text="Home" icon={<FaHome size={30} />} />
-      <NavLink to="/explore" text="Explore" icon={<FaHashtag size={30} />} />
+      <NavLink to="/" text="Home" icon={<FaHome size={25} />} />
+      <NavLink to="/explore" text="Explore" icon={<FaHashtag size={25} />} />
       <NavLink
         to="/notifications"
         text="Notifications"
-        icon={<FaRegBell size={30} />}
+        icon={<FaRegBell size={25} />}
       />
-      <NavLink to="/messages" text="Messages" icon={<FaEnvelope size={30} />} />
+      <NavLink to="/messages" text="Messages" icon={<FaEnvelope size={25} />} />
       <NavLink
         to="/bookmarks"
         text="Bookmarks"
-        icon={<FaBookmark size={30} />}
+        icon={<FaBookmark size={25} />}
       />
-      <NavLink to="/lists" text="Lists" icon={<FaListUl size={30} />} />
-      <NavLink to="/profile" text="Profile" icon={<FaUserAlt size={30} />} />
+      <NavLink to="/lists" text="Lists" icon={<FaListUl size={25} />} />
+      <NavLink to="/profile" text="Profile" icon={<FaUserAlt size={25} />} />
       <NavLink
         text="More"
-        icon={<FaChevronCircleDown size={30} onClick={handleShow} />}
+        icon={<FaChevronCircleDown size={25} onClick={handleShow} />}
       />
       <Modal show={showModal} onHide={handleClose}>
         <Styled.ModalWrapper>
@@ -105,7 +105,7 @@ const Styled = {
   Container: styled.nav`
     background: ${props => props.theme.NavBar.nav.background};
     border-right: 1px solid lightgrey;
-    padding-left: 150px;
+    padding-left: 70px;
   `,
   Button: styled.button`
     margin-top: 20px;

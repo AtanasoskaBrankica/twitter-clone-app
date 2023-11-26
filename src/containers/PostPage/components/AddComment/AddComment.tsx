@@ -56,7 +56,7 @@ export const AddComment = ({addNewComment}: Props) => {
           backgroundColor="rgb(29,155,240)"
           name="Reply"
           textColor="white"
-          width="150px"
+          width="100px"
           margin="30px 0px 0px 70px"
         />
       </Styled.Form>
@@ -88,14 +88,14 @@ const Styled = {
   `,
   TextArea: styled.textarea`
     height: 80px;
-    width: 450px;
+    width: 380px;
     background: transparent;
     color: ${props => props.theme.Main.tweet.color};
     resize: none;
     border: none;
     margin-top: 20px;
     margin-left: 20px;
-    margin-right: 100px;
+
     font-size: 20px;
     &::placeholder {
       color: ${props => props.theme.Main.tweet.color};

@@ -31,7 +31,7 @@ const Styled = {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    width: 650px;
+    width: 400px;
     height: 50px;
     margin-left: 15px;
     margin-top: 3px;

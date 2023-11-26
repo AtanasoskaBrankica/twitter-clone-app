@@ -84,11 +84,9 @@ const Styled = {
     flex-direction: column;
     align-items: center;
     border-radius: 7%;
-    margin-left: 500px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 800px;
-    height: 700px;
+    margin-left: 450px;
+    width: 500px;
+    height: 657px;
     background: black;
   `,
   IconWrapper: styled.div`
@@ -101,6 +99,7 @@ const Styled = {
     font-weight: bold;
     margin-bottom: 50px;
     margin-top: 10px;
+    font-size: 2rem;
   `,
   Input: styled.input`
     border: 1px solid lightgrey;

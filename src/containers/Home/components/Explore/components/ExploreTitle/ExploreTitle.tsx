@@ -25,7 +25,7 @@ const Styled = {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font-size: 30px;
+    font-size: 1.5rem;
     margin-left: 8px;
     font-weight: bold;
     color: ${props => props.theme.Aside.wrapperOne.title.color};

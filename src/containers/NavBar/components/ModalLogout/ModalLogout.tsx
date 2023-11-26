@@ -55,16 +55,18 @@ const Styled = {
     cursor: pointer;
   `,
   Avatar: styled.img`
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 10px;
   `,
-  UserAccount: styled.span`
-    font-size: 18px;
+  UserAccount: styled.p`
+    font-size: 1rem;
     margin-left: 10px;
     margin-top: 20px;
+    overflow-wrap: break-word;
+    max-width: 200px;
   `,
   IconWrapper: styled.div`
     margin-left: 25px;

@@ -39,14 +39,13 @@ export const Search = () => {
           title="#SocialMediaSlavery"
           number="6,074 Tweets"
         />
-        margin-left: 15px;
       </Styled.WrapperOne>
       <Styled.WrapperTwo>
         <TitleTopic title="Who to follow" />
         <PeopleToFollow name="Liv Tyler" username="@Liv Tyler"></PeopleToFollow>
         <PeopleToFollow name="Nia Long" username="@NiaLong"></PeopleToFollow>
         <PeopleToFollow name="Al Pacino" username="@AlPacino"></PeopleToFollow>
-        <ShowMore desc="Show more" />
+        {/* <ShowMore desc="Show more" /> */}
       </Styled.WrapperTwo>
     </Styled.Container>
   );
@@ -61,7 +60,6 @@ const Styled = {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    width: 400px;
     height: 50px;
     margin-left: 15px;
     margin-top: 15px;
@@ -86,14 +84,12 @@ const Styled = {
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 20px;
-    width: 400px;
     margin-left: 15px;
   `,
   WrapperTwo: styled.div`
     background: ${props => props.theme.Aside.wrapperTwo.background};
     border-radius: 20px;
-    height: 35vh;
-    width: 400px;
+    height: 40vh;
     margin-left: 15px;
   `,
 };
