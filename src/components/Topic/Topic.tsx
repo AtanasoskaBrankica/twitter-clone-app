@@ -22,7 +22,6 @@ const Styled = {
     flex-direction: column;
     justify-content: flex-start;
     height: 90px;
-    margin-bottom: 15px;
     padding-bottom: 10px;
     margin-right: 15px;
     margin-left: 20px;
@@ -31,19 +30,22 @@ const Styled = {
     display: flex;
     flex: 1;
     color: grey;
-    font-size: 16px;
+    font-size: 1rem;
+    margin-bottom: 5px;
   `,
   Title: styled.h5`
     display: flex;
     flex: 1;
     color: ${props => props.theme.Aside.wrapperOne.titleTopic.color};
     margin-top: -20px;
+    margin-bottom: 0;
+    font-size: 1rem;
   `,
   TweetsNumber: styled.span`
     display: flex;
     flex: 1;
     color: grey;
-    font-size: 17px;
-    margin-top: -10px;
+    font-size: 1rem;
+    margin-top: -20px;
   `,
 };

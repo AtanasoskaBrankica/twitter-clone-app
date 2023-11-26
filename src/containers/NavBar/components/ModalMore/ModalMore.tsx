@@ -18,7 +18,7 @@ const Styled = {
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 1rem;
     margin-left: 10px;
     cursor: pointer;
   `,

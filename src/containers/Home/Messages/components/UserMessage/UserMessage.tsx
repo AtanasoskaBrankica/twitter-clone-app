@@ -46,11 +46,12 @@ const Styled = {
     flex-direction: column;
     margin-left: 20px;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 1rem;
   `,
   AccountWrapper: styled.div`
     display: flex;
     flex-direction: row;
+    font-size: 1rem;
   `,
   NameAndLastname: styled.span`
     color: ${props => props.theme.Messages.nameAndlastname.color};
@@ -64,7 +65,7 @@ const Styled = {
   `,
   WhenWrapper: styled.span`
     color: grey;
-    font-size: 20px;
-    margin-left: 220px;
+    font-size: 0.8rem;
+    margin-left: 130px;
   `,
 };

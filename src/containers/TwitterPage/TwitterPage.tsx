@@ -24,25 +24,22 @@ export const TwitterPage = () => {
             backgroundColor="rgb(29,155,240)"
             textColor="white"
             name="Sign up with phone or email"
-            width="300px"
             onClick={() => {
               navigate('/register');
             }}
           />
         </Styled.ButtonWrapper>
-
-        <Styled.TitleLogin>Already have an account?</Styled.TitleLogin>
-        <Styled.ButtonWrapper>
-          <Button
-            backgroundColor="black"
-            textColor="rgb(29,155,240)"
-            name="Sign in"
-            width="300px"
+        <Styled.Wrapper>
+          <Styled.TitleLogin>Already have an account?</Styled.TitleLogin>
+          <Styled.SignIn
+            href="#"
             onClick={() => {
               navigate('/login');
             }}
-          />
-        </Styled.ButtonWrapper>
+          >
+            Sign in
+          </Styled.SignIn>
+        </Styled.Wrapper>
       </Styled.WrapperTwo>
     </Styled.Container>
   );
@@ -54,7 +51,7 @@ const Styled = {
     background: green;
     display: flex;
     flex-direction: row;
-    height: 900px;
+    height: 657px;
   `,
   WrapperOne: styled.div`
     display: flex;
@@ -79,7 +76,7 @@ const Styled = {
     margin-top: 10px;
   `,
   MainTitle: styled.h1`
-    font-size: 80px;
+    font-size: 50px;
     font-weight: bold;
     margin-top: 100px;
     margin-left: 50px;
@@ -87,19 +84,34 @@ const Styled = {
   `,
   Title: styled.h2`
     color: lightgrey;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
     margin-left: 50px;
     margin-top: 60px;
   `,
   TitleLogin: styled.h4`
-    margin-left: 70px;
-    margin-top: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
     color: white;
     font-weight: bold;
+    font-size: 0.8rem;
   `,
   ButtonWrapper: styled.div`
-    margin-left: 50px;
-    margin-
+    margin-left: 40px;
+  `,
+  Wrapper: styled.div`
+    display: flex;
+    flex-direction: row;
+  `,
+  SignIn: styled.a`
+    color: rgb(29, 155, 240);
+    &:hover {
+      text-decoration: none;
+    }
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 0.8rem;
   `,
 };

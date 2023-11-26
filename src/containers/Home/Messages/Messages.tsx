@@ -56,7 +56,5 @@ const Styled = {
   IconWrapperTwo: styled.div`
     margin-right: 10px;
   `,
-  SearchWrapper: styled.div`
-    margin-left: 100px;
-  `,
+  SearchWrapper: styled.div``,
 };

@@ -87,6 +87,7 @@ const Styled = {
     padding: 0;
     color: ${props => props.theme.Main.tweet.color};
     text-align: left;
+    font-size: 1.2rem;
   `,
   Content: styled.p`
     color: ${props => props.theme.Main.tweet.color};

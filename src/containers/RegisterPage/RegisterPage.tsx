@@ -124,10 +124,8 @@ const Styled = {
     flex-direction: column;
     align-items: center;
     border-radius: 7%;
-    margin-left: 500px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 700px;
+    margin-left: 450px;
+    width: 500px;
     padding-bottom: 50px;
     background: black;
   `,
@@ -141,18 +139,19 @@ const Styled = {
     font-weight: bold;
     margin-bottom: 50px;
     margin-top: 10px;
+    font-size: 2rem;
   `,
   Input: styled.input`
     border: 1px solid grey;
     margin-top: 20px;
     background: black;
-    width: 600px;
-    height: 70px;
+    width: 300px;
+    height: 50px;
     color: white;
     padding-bottom: 10px;
     &::placeholder {
       color: lighthrey;
-      font-size: 18px;
+      font-size: 1rem;
       padding-left: 8px;
       font-family: Quicksand;
     }

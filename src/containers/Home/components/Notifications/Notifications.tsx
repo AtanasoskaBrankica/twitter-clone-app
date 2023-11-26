@@ -55,7 +55,7 @@ const Styled = {
     justify-content: space-between;
     margin-left: 200px;
     margin-right: 200px;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 40px;
     margin-bottom: 10px;
   `,

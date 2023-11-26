@@ -132,7 +132,7 @@ export const Profile = () => {
             <Styled.Username>@Atanasoska98</Styled.Username>
             <Styled.JoinedDateWrapper>
               <Styled.DateIcon>
-                <FaCalendarAlt size={20} />
+                <FaCalendarAlt size={15} />
               </Styled.DateIcon>
               <Styled.JoinedDate>Joined January 2022</Styled.JoinedDate>
             </Styled.JoinedDateWrapper>
@@ -200,7 +200,7 @@ const Styled = {
   `,
   TweetsNumber: styled.span`
     color: ${props => props.theme.Profile.otherText.color};
-    font-size: 20px;
+    font-size: 1rem;
   `,
   CoverImage: styled.img`
     width: 100%;
@@ -208,8 +208,8 @@ const Styled = {
     margin-top: 5px;
   `,
   Avatar: styled.img`
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-left: 5px;
     position: relative;
@@ -224,7 +224,7 @@ const Styled = {
     margin-left: 30px;
   `,
   Username: styled.span`
-    font-size: 25px;
+    font-size: 20px;
     color: ${props => props.theme.Profile.text.color};
     font-weight: bold;
   `,
@@ -237,14 +237,14 @@ const Styled = {
     margin-right: 10px;
   `,
   JoinedDate: styled.span`
-    font-size: 17px;
+    font-size: 1rem;
   `,
   FollowWrapper: styled.div`
     display: flex;
     flex-direction: row;
     margin-left: 30px;
     margin-top: 10px;
-    font-size: 17px;
+    font-size: 1rem;
     color: ${props => props.theme.Profile.otherText.color};
   `,
   Following: styled.span`
@@ -257,7 +257,7 @@ const Styled = {
     justify-content: space-between;
     margin-left: 60px;
     margin-right: 60px;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: -70px;
   `,
   ModalWrapper: styled.div`

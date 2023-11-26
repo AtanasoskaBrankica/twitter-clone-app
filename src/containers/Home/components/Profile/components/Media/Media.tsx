@@ -25,16 +25,18 @@ const Styled = {
     display: flex;
     flex-direction: column;
     margin-top: 70px;
-    margin-left: 220px;
+    margin-left: 30px;
     margin-right: 220px;
     height: 320px;
+    width: 100%;
   `,
   Title: styled.h1`
     font-weight: bold;
+    font-size: 1.7rem;
     color: ${props => props.theme.Profile.text.color};
   `,
   Text: styled.p`
-    font-size: 17px;
+    font-size: 1rem;
     color: ${props => props.theme.Profile.otherText.color};
   `,
 };
